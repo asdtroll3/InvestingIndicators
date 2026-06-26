@@ -137,9 +137,11 @@ a model is a single self-contained function** — nothing else needs wiring.
 
 ## Disclaimer
 
-This project is for educational and informational purposes only. It is **not
-investment advice** and makes no guarantee of data accuracy. Do your own research
+⚠️ This project is for educational and informational purposes only. It is **not
+investment advice** and makes no guarantee of data accuracy. Do your own research (DYOR)
 before making any financial decision.
+
+⚠️ This project was developed with the assistance of AI and is currently still under development, so some features and functionality may change over time.
 
 ## License
 
