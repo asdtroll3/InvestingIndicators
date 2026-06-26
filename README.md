@@ -57,12 +57,16 @@ python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 
 # 2. Install dependencies
-pip install -r requirements.txt
+pip install pandas numpy pandas-datareader yfinance requests lxml rich
 
 # 3. Run
 python InvestingIndicators.py            # all indicators
 python InvestingIndicators.py vix sahm   # a subset, by key
 ```
+
+**Dependencies:** `pandas` / `numpy` (data & numerics), `pandas-datareader`
+(FRED, no API key), `yfinance` (Yahoo index prices), `requests` + `lxml`
+(multpl.com Shiller CAPE scrape), `rich` (terminal table).
 
 ## Architecture
 
