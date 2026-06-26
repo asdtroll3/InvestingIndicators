@@ -1,0 +1,12 @@
+# Core data + numerics
+pandas>=2.2
+numpy>=1.26
+
+# Data sources
+pandas-datareader>=0.10   # FRED (no API key required)
+yfinance>=0.2            # Yahoo Finance index prices
+requests>=2.31           # multpl.com scrape (Shiller CAPE)
+lxml>=5.0                # HTML table parsing for pandas.read_html
+
+# Terminal output
+rich>=13.0
